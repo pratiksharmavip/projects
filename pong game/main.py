@@ -2,6 +2,7 @@
 from paddel import *
 from turtle import *
 import turtle
+from ball import *
 screen = Screen()
 screen.title("Pong")
 screen.bgcolor("black")
@@ -10,7 +11,9 @@ screen.setup(800, 600)
 # paddel_1
 screen.tracer(0)
 paddel_1=Paddel((380,0))
-paddel_2=Paddel((-380,0))
+paddel_2=Paddel((-385,0))
+Ball = baall()
+
 
 
 
@@ -38,6 +41,8 @@ turtle.listen()
 onkeypress(go_dn_1,"s")
 game=1
 while game==1:
-    screen.update()
+    screen.update
+    )
+    Ball.move()
 
 screen.exitonclick()

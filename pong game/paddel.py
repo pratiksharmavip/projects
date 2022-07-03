@@ -1,4 +1,5 @@
 from turtle import *
+from types import new_class
 
 
 class Paddel(Turtle,):
@@ -10,3 +11,5 @@ class Paddel(Turtle,):
         self.penup()
         self.goto(position)
         
+
+    
