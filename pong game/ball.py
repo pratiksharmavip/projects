@@ -13,3 +13,4 @@ class baall(turtle.Turtle):
         new_x=self.xcor()+1
         new_y=self.ycor()+1
         self.goto(new_x,new_y)
+        #ball movement
