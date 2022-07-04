@@ -41,8 +41,7 @@ turtle.listen()
 onkeypress(go_dn_1,"s")
 game=1
 while game==1:
-    screen.update
-    )
+    screen.update()
     Ball.move()
 
 screen.exitonclick()
